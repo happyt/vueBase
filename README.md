@@ -6,3 +6,5 @@ Base project for use eleswhere.
 
 - Split into components
 - Extract css into assets
+
+- Add routing

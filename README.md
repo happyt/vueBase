@@ -12,4 +12,8 @@ Base project for use eleswhere.
 - Add API calls for user management with axios
 
 - Use vuex
+- separate posts module
+
+- Server side rendering
+
 

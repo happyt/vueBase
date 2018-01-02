@@ -8,3 +8,8 @@ Base project for use eleswhere.
 - Extract css into assets
 
 - Add routing
+
+- Add API calls for user management with axios
+
+- Use vuex
+

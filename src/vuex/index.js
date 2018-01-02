@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import appService from '../appService'
-import postsModule from './posts'
+import appService from '../appService.js'
+import postsModule from './posts.js'
 
 Vue.use(Vuex)
 
@@ -28,8 +28,8 @@ const store = new Vuex.Store({
         appService.login(credentials)
           .then((data) => {
             context.commit('login', data)
+
             resolve()
-          //  window.alert('Logged in!')
           })
           .catch(() => window.alert('Could not login!'))
       })
@@ -54,7 +54,7 @@ const store = new Vuex.Store({
 })
 
 if (typeof window !== 'undefined') {
-  document.addEventListener('DOMContnetLoaded', function (event) {
+  document.addEventListener('DOMContentLoaded', function (event) {
     let expiration = window.localStorage.getItem('tokenExpiration')
     var unixTimeStamp = new Date().getTime() / 1000
     if (expiration !== null && parseInt(expiration) - unixTimeStamp > 0) {
@@ -62,4 +62,5 @@ if (typeof window !== 'undefined') {
     }
   })
 }
+
 export default store

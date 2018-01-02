@@ -1,5 +1,4 @@
-import appService from '../appService'
-
+import appService from '../appService.js'
 const state = {
   posts: [],
   categoryId: 0
@@ -25,7 +24,7 @@ const mutations = {
 }
 
 export default {
-  namespace: true,
+  namespaced: true,
   state,
   getters,
   actions,

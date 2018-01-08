@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/happyt/vueBase.svg?branch=master)](https://travis-ci.org/happyt/vueBase)
+[![Build Status](https://travis-ci.org/happyt/vueBase.svg?branch=serverside)](https://travis-ci.org/happyt/vueBase)
 
 Base project for use eleswhere.
 

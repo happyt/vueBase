@@ -18,4 +18,9 @@ Base project for use eleswhere.
 
 - Server side rendering
 
+- Karma tests
+- Run through travis-ci.org
+
+
+
 

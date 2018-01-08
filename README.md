@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/happyt/vueBase.svg?branch=master)](https://travis-ci.org/happyt/vueBase)
+
 Base project for use eleswhere.
 
 - It has a webpack builder with hot reloading, eslint

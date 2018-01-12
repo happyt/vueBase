@@ -2,7 +2,7 @@
   <footer class="footer">
         <div class="container">
           <div class="content has-text-centered">
-            Follow us on
+            First started by 
             <a href="https://twitter.com/bstavroulakis"
             target="_blank">Twitter</a>
           </div>
